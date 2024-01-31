@@ -1,0 +1,69 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-image: url(./images/livraria.jpg);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #d6d6ea;
+}
+
+.container-aplicativo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#capitulo, #nome-autor{
+  color: white;
+  
+}
+img{
+  border-radius: 0.5rem;
+}
+
+button {
+  background-color: inherit;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.music-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#informacoes-faixa{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.5rem 0 1.5rem 0;
+  font-size: 1.5rem;
+  gap: 20px;
+
+  
+}
+
+
+#retroceder, #seguinte {
+  font-size: 1.5rem;
+}
+
+#play-pause {
+  font-size: 3rem;
+}
+
+#container-botoes {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
