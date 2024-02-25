@@ -1,0 +1,58 @@
+:root{
+    --roxo-padrao: #9353ff;
+    --verde-claro: #DAFF01;
+    --cinza-padrao: #CCCCCC;
+    --preto-padrao: #000000;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.small-text{
+    font-size: 14px;
+}
+
+.div-novidades {
+    width: 325px;
+}
+
+.divs-facilities{
+    width: 325px;
+}
+
+.botao-personalizado{
+   background-color: white;
+   color: black;
+   padding: 0px 10px ;
+}
+
+.botao-personalizado:hover{
+    background-color: #a16ff7;
+}
+
+
+.verde-limao{
+    color: #DAFF01;
+}
+
+.branco{
+    color:white;
+}
+
+.roxo{
+    background-color: #9353ff !important;
+}
+
+.posicao{
+    top: 40%;
+}
+
+@media(max-width: 767px){
+    .posicao{
+        top:60%;
+    }
+}

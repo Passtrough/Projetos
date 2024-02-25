@@ -1,14 +1,14 @@
 @font-face {
-  font-family: 'San Francisco';
+  font-family: "San Francisco";
   font-weight: 400;
-  src: url('https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff');
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'San Francisco';
+  font-family: "San Francisco";
   list-style-type: none;
 }
 :root {
@@ -113,7 +113,7 @@ main {
           mix-blend-mode: color;
         }
       }
-      & input[type='radio']:checked + label {
+      & input[type="radio"]:checked + label {
         border-radius: 50%;
         border: 0.125rem solid #0066cc;
       }
@@ -154,7 +154,7 @@ main {
       border-radius: 0.625rem;
       cursor: pointer;
     }
-    & input[type='radio']:checked + label {
+    & input[type="radio"]:checked + label {
       border: 0.125rem solid #0066cc;
     }
   }
@@ -264,7 +264,7 @@ main {
         border-color: #e8e8ed;
       }
     }
-    & input[type='radio']:checked + label > img {
+    & input[type="radio"]:checked + label > img {
       border-color: #d2d2d6;
     }
   }
